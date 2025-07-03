@@ -1,0 +1,15 @@
+[project]
+name = "third-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+live = [
+    "pandas>=2.3.0",
+]
+backtest = [
+    "plotly>=6.2.0",
+]
